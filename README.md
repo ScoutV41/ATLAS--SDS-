@@ -12,7 +12,7 @@ Originally built for the [Waterfall Hunt](https://waterfallhunt.com) treasure hu
 
 ## ⚠️ Before you run this, read this first
 
-**ATLAS requires a vision-language model running locally.** It will not work — and will not fail with a clear error — if no model backend is active. Running it without a VLM loaded will produce meaningless output (random/default coordinates, often landing in the ocean).
+**ATLAS requires a vision-language model running locally.** It will not work and will not fail with a clear error; if no model backend is active. Running it without a VLM loaded will produce meaningless output (random/default coordinates, often landing in the ocean) from the DEMO mode fallback (allowing you to simulate ATLAS on weaker hardware)
 
 **You need, in this order:**
 

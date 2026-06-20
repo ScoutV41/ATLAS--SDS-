@@ -82,7 +82,7 @@ MODEL_ENDPOINTS = [
 **3. Run**
 
 ```bash
-python atlas.py
+python ATLASV3.3"(Lite)".py
 ```
 
 **4. Check outputs**

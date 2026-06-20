@@ -60,7 +60,7 @@ MODEL_ENDPOINTS = [
 # Disagreement threshold — flags if shadow angles differ by more than this
 ANGLE_DISAGREEMENT_THRESH = 45.0
 
-# ── Waterfall Hunt Search Area Constraint ──────────────────────────────────────
+# ── Original treasure Hunt Search Area Constraint (Keep the same if you are using the given example dataset otherwise change this to your own search radius) ──────────────────────────────────────
 SEARCH_CENTER    = (37.46453, -116.13134)  # (lat, lon)
 SEARCH_RADIUS_KM = 154.35
 

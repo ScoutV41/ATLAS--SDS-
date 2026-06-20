@@ -77,6 +77,7 @@ MODEL_ENDPOINTS = [
     "qwen2.5-vl-7b-instruct"
 ]
 ```
+>(for the absolute lightest possible model - run using MoonDream 2, the Released executable is already set to use MD2, if it returns an error report an issue)
 
 **3. Run**
 

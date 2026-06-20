@@ -2,15 +2,15 @@
 
 # ATLAS
 
-## [MAJOR WIP: EXPECT MISCALCULATIONS AND ERRORS — DO NOT RELY ENTIRELY ON OUTPUT]
+## [MAJOR WIP: EXPECT MISCALCULATIONS AND ERRORS - DO NOT RELY ENTIRELY ON OUTPUT]
 
-ATLAS (Automated Terrain and Luminance Analysis System) is a local vision AI pipeline that estimates geolocation data — longitude, latitude band, and biome — from a sequence of timestamped landscape camera images. It analyzes shadow angles, vegetation, and geology across hundreds of frames to derive a best-guess location.
+ATLAS (Automated Terrain and Luminance Analysis System) is a local vision AI pipeline that estimates geolocation data longitude, latitude band, and biome, from a sequence of timestamped landscape camera images. It analyzes shadow angles, vegetation, and geology across hundreds of frames to derive a best-guess location.
 
 Originally built for the [Waterfall Hunt](https://waterfallhunt.com) treasure hunt investigation.
 
 ---
 
-## ⚠️ Before you run this — read this first
+## ⚠️ Before you run this, read this first
 
 **ATLAS requires a vision-language model running locally.** It will not work — and will not fail with a clear error — if no model backend is active. Running it without a VLM loaded will produce meaningless output (random/default coordinates, often landing in the ocean).
 
@@ -46,7 +46,7 @@ This is the part that matters most for testing - ATLAS cannot guess a location f
 
 ## Quick test image-set
 
-[SAMPLE SET HERE](
+[SAMPLE SET HERE](https://drive.google.com/drive/folders/1fp-efQHF-mpdb3wr4wQy-DNNl0TbnCjm?usp=drive_link)
 I recommend testing with a known-good dataset first before trying your own images, so you can confirm ATLAS is working correctly before troubleshooting your own data.
 
 ---

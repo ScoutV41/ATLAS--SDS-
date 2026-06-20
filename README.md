@@ -19,7 +19,7 @@ Originally built for the [Waterfall Hunt](https://waterfallhunt.com) treasure hu
 1. Install [LM Studio](https://lmstudio.ai/)
 2. Download and load a vision-capable model, `qwen2.5-vl-7b-instruct` is what ATLAS is tested against
 3. Start the local server in LM Studio (Developer tab → confirm it shows "Running")
-4. Only then run `python atlas.py`
+4. Only then run `python ATLASV3.3"(Lite)".py`
 
 If you skip step 2 or 3, ATLAS has nothing to extract shadow/terrain data from and the output is not representative of how the tool works.
 (If your hardware cannot run a Local AI Model you will have to run using the DEMO version of ATLAS which uses random generated coordinates, any images used in [DEMO] Mode will be useless)
